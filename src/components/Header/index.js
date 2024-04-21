@@ -21,7 +21,7 @@ const Header = () => (
               </Link>
             </li>
             <li className="header-item">
-              <Link to="/find-doctors" className="nav-link">
+              <Link to="/doctor1" className="nav-link">
                 Find Doctors
               </Link>
             </li>
@@ -60,7 +60,7 @@ const Header = () => (
         </li>
         <li className="nav-menu-item-mobile">
           {/* Link to find doctors */}
-          <Link to="/find-doctors" className="nav-link">
+          <Link to="/doctor1" className="nav-link">
             {/* Products icon */}
             <img
               src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"
